@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "example": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "example": "*.md",
+      "use": "@now/static"
+    }
+  ]
+}
