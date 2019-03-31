@@ -5,6 +5,52 @@
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
 [![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/evillt)
 
+## Usage
+
+First load this plugin via `<script>` tag:
+
+```html
+<!-- Load this plugin after docute.js -->
+<script src="https://unpkg.com/docute-demo-code"></script>
+```
+
+This plugin exposed as `window.docuteDemoCode`
+
+```js
+new Docute({
+  ...
+  plugins: [
+    docuteDemoCode()
+  ]
+})
+```
+
+Then, you can write a demo code block with live demo in `.md` file:
+
+    # Introduction
+
+    > Showcase for demo code
+
+    :::demo
+    ```html
+    <template>
+      <div>{{ msg }}</div>
+    </template>
+
+    <script>
+    export default {
+      data() {
+        return {
+          msg: 'Hi, 😋'
+        }
+      }
+    }
+    </script>
+    ```
+    :::
+
+Similar to vuepress custom container huh?
+
 ## Contributing
 
 1. Fork it!
