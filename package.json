@@ -1,0 +1,41 @@
+{
+  "name": "docute-demo-code",
+  "description": "📑A demo-code-block plugin for Docute",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "evillt/docute-demo-code"
+  },
+  "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
+  "main": "dist/index.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "bili"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bili": "^4.4.0",
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.15.2",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "typescript": "^3.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{ts,js,json,md}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  }
+}
