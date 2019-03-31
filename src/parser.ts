@@ -5,7 +5,7 @@ import {
   Text
 } from './utils'
 
-export default function docuteDemoCode(text: Text): Text {
+export default function(text: Text): Text {
   const startTag = ':::demo'
   const startTagLen = startTag.length
   const endTag = ':::'
