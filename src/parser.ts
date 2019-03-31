@@ -32,7 +32,7 @@ export default function(text: Text): Text {
     )
 
     id++
-    start = demoEnd + endTagLen
+    start = demoEnd
     demoStart = text.indexOf(startTag, start)
     demoEnd = text.indexOf(endTag, demoStart + startTagLen) + endTagLen
   }
