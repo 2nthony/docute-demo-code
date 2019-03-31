@@ -8,9 +8,9 @@
     "url": "evillt/docute-demo-code"
   },
   "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
-  "main": "dist/index.umd.min.js",
+  "main": "dist/index.min.js",
   "files": [
-    "dist"
+    "dist/*.js"
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -37,5 +37,13 @@
         "git add"
       ]
     }
-  }
+  },
+  "keywords": [
+    "vue",
+    "docute",
+    "demo",
+    "document",
+    "documentation",
+    "plugin"
+  ]
 }
