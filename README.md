@@ -11,7 +11,7 @@ First load this plugin via `<script>` tag:
 
 ```html
 <!-- Load this plugin after docute.js -->
-<script src="https://unpkg.com/docute-demo-code"></script>
+<script src="https://unpkg.com/docute-demo-code@^0.1"></script>
 ```
 
 This plugin exposed as `window.docuteDemoCode`
