@@ -9,8 +9,8 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "example"
+      "src": "^/(.*)",
+      "dest": "/example"
     }
   ],
   "github": {
