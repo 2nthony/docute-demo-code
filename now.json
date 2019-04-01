@@ -2,8 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "example/*",
+      "src": "example/**/*",
       "use": "@now/static"
     }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
