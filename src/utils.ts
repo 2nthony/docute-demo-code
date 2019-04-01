@@ -1,6 +1,6 @@
 export type Text = string
 
-declare var window: Window & { Vue: any }
+declare var Vue: any
 
 interface RegisterOptions {
   template: string
@@ -30,14 +30,11 @@ export function registerComponent(
   { template, script }: RegisterOptions,
   id: number
 ) {
-  if (!window.Vue) return
+  if (!Vue) return
 
-  const resolveComponent = new Function(`return {
-    template: \`<section>
-      ${template}
-    </section>\`,
-    ${script}
-  }`)
+  const resolveComponent = new Function(
+    `return {template: \`<section>${template}</section>\`,${script}}`
+  )
 
-  window.Vue.component(`demo-${id}`, resolveComponent())
+  Vue.component(`demo-${id}`, resolveComponent())
 }

@@ -1,11 +1,8 @@
 {
+  "version": 2,
   "builds": [
     {
-      "website": "*.html",
-      "use": "@now/static"
-    },
-    {
-      "website": "*.md",
+      "src": "example/*",
       "use": "@now/static"
     }
   ]
