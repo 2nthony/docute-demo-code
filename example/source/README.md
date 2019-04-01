@@ -6,7 +6,11 @@
 
 ```html
 <template>
-  <button @click="inc">count: {{ count }}</button>
+  <div>
+    <span style="color: #2a7">count: {{ count }}</span>
+    <button @click="plus">+</button>
+    <button @click="minus">-</button>
+  </div>
 </template>
 
 <script>
@@ -17,8 +21,11 @@
       }
     },
     methods: {
-      inc() {
+      plus() {
         this.count++
+      },
+      minus() {
+        this.count--
       }
     }
   }
@@ -33,7 +40,11 @@ See the count button right here 😋? It's live🔥!
 
 ```html
 <template>
-  <button @click="inc">count: {{ count }}</button>
+  <div>
+    <span style="color: #2a7">count: {{ count }}</span>
+    <button @click="plus">+</button>
+    <button @click="minus">-</button>
+  </div>
 </template>
 
 <script>
@@ -44,8 +55,11 @@ See the count button right here 😋? It's live🔥!
       }
     },
     methods: {
-      inc() {
+      plus() {
         this.count++
+      },
+      minus() {
+        this.count--
       }
     }
   }
