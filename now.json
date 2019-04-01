@@ -1,11 +1,11 @@
 {
   "builds": [
     {
-      "example": "*.html",
+      "website": "*.html",
       "use": "@now/static"
     },
     {
-      "example": "*.md",
+      "website": "*.md",
       "use": "@now/static"
     }
   ]
