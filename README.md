@@ -1,11 +1,13 @@
 # docute-demo-code
 
-🔥Live code block for better showcase for Docute.
+🔥Live code block for better showcase for Docute
 
 [![NPM version](https://badgen.net/npm/v/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![NPM download](https://badgen.net/npm/dm/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
 [![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/evillt)
+
+### 🤗Checkout the [live demo](https://docute-demo-code.now.sh)
 
 ## Usage
 
