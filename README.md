@@ -34,7 +34,7 @@ new Docute({
 ```
 
 Then, you can write a demo code block with live demo in `.md` file:  
-(Don't forget to specify the code language is `html` or `vue`)
+(Don't forget to specify the code language to `html` or `vue`)
 
     # Introduction
 
