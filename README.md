@@ -2,6 +2,8 @@
 
 🔥Live code block for better showcase for Docute
 
+> This plugin still Work-In-Progress!
+
 [![NPM version](https://badgen.net/npm/v/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![NPM download](https://badgen.net/npm/dm/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
