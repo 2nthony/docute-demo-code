@@ -7,7 +7,7 @@
 ```html
 <template>
   <div>
-    <span style="color: #2a7">count: {{ count }}</span>
+    <span class="count">count: {{ count }}</span>
     <button @click="plus">+</button>
     <button @click="minus">-</button>
   </div>
@@ -30,6 +30,12 @@
     }
   }
 </script>
+
+<style>
+  .count {
+    color: #2a7;
+  }
+</style>
 ```
 
 ### With docute-demo-code plugin:
@@ -41,7 +47,7 @@ See the count button right here 😋? It's live🔥!
 ```html
 <template>
   <div>
-    <span style="color: #2a7">count: {{ count }}</span>
+    <span class="count">count: {{ count }}</span>
     <button @click="plus">+</button>
     <button @click="minus">-</button>
   </div>
@@ -64,6 +70,12 @@ See the count button right here 😋? It's live🔥!
     }
   }
 </script>
+
+<style>
+  .count {
+    color: #2a7;
+  }
+</style>
 ```
 
 :::
