@@ -16,8 +16,13 @@ export function parseComponent(text: Text): RegisterOptions {
 
   const JS_RE = /<(script)>([\s\S]*)<\/\1>/
   const ESM_SCRIPT_RE = /<(script)>[\s\S]*export\s*default\s*{\s*([\s\S]*)}\s*<\/\1>/
+
   const [matchedScript = ''] = component.match(JS_RE) || []
-  const template = component.replace(JS_RE, '')
+
+  const template = component
+    .replace(JS_RE, '')
+    // Replace all style tag to docute built-in component `<v-style>`
+    .replace(/<(\/?)style>/g, '<$1v-style>')
   const script = matchedScript.replace(ESM_SCRIPT_RE, '$2')
 
   return {
