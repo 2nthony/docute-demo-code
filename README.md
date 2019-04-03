@@ -3,7 +3,7 @@
 🔥Live code block for better showcase for Docute
 
 > This plugin still Work-In-Progress!  
-> Any now only support Vue SFC string!  
+> And now only support Vue SFC string!  
 > For others you might want to try [docute-run-code](https://github.com/egoist/docute-plugins/tree/master/packages/run-code)
 
 [![NPM version](https://badgen.net/npm/v/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
