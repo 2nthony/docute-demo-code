@@ -8,13 +8,13 @@ interface RegisterOptions {
 }
 
 export function stripDemoBlock(text: Text): Text {
-  return text.replace(/:::demo\s*([\s\S]*):::/, '$1')
+  return text.replace(/(:{3})demo\s*([\s\S]*)\1/, '$2')
 }
 
 export function parseComponent(text: Text): RegisterOptions {
   const component = stripDemoBlock(text).replace(
-    /```(html|vue)([\s\S]*)\s*```/,
-    '$2'
+    /(`{3})(html|vue)([\s\S]*)\s*\1/,
+    '$3'
   )
 
   const JS_RE = /<(script)>([\s\S]*)<\/\1>/
@@ -44,5 +44,5 @@ export function registerComponent(
     `return {template: \`<section>${template}</section>\`,${script}}`
   )
 
-  Vue.component(`demo-${id}`, resolveComponent())
+  Vue.component(`Demo${id}`, resolveComponent())
 }

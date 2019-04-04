@@ -28,7 +28,7 @@ export default function(text: Text): Text {
 
     outputString = outputString.replace(
       demo,
-      `<demo-${id}/>\n\n${stripDemoBlock(demo)}`
+      `<Demo${id}/>\n\n${stripDemoBlock(demo)}`
     )
 
     id++
