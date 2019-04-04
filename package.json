@@ -13,8 +13,9 @@
     "dist/*.js"
   ],
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "build": "bili"
+    "prepublishOnly": "npm run build && npm run build:min",
+    "build": "bili --format umd",
+    "build:min": "bili --format umd-min"
   },
   "dependencies": {},
   "devDependencies": {
