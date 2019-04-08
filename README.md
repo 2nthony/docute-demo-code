@@ -61,6 +61,28 @@ Then, you can write a demo code block with live demo in `.md` file:
 
 Similar to vuepress custom container huh?
 
+## Use With Bundlers
+
+```sh
+yarn add docute-demo-code --dev
+```
+
+### Webpack
+
+In your entry file:
+
+```js
+import Docute from 'docute'
+import docuteDemoCode from 'docute-demo-code'
+
+new Docute({
+  ...
+  plugins: [
+    docuteDemoCode()
+  ]
+})
+```
+
 ## Contributing
 
 1. Fork it!
