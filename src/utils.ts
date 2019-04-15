@@ -1,5 +1,9 @@
 export type Text = string
 
+export interface Options {
+  showBorder?: boolean
+}
+
 declare var Vue: any
 
 interface RegisterOptions {
