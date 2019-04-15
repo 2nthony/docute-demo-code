@@ -10,7 +10,7 @@
 [![NPM download](https://badgen.net/npm/dm/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![](https://data.jsdelivr.com/v1/package/npm/docute-demo-code/badge?style=rounded)](https://www.jsdelivr.com/package/npm/docute-demo-code)
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
-[![buy me a coffee](https://badgen.net/badge/buy%20me%20a/coffee/a71)](https://patreon.com/evillt)
+[![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
 
 ### 🤗Checkout the [live demo](https://docute-demo-code.now.sh)
 
@@ -82,6 +82,17 @@ new Docute({
   ]
 })
 ```
+
+## API
+
+`docuteDemoCode(options: Options)`
+
+### showBorder
+
+- Type: `boolean`
+- Default: `true`
+
+Use docute style to wrap living demo block
 
 ## Contributing
 
