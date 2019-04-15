@@ -9,6 +9,7 @@
 [![NPM version](https://badgen.net/npm/v/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![NPM download](https://badgen.net/npm/dm/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
 [![](https://data.jsdelivr.com/v1/package/npm/docute-demo-code/badge?style=rounded)](https://www.jsdelivr.com/package/npm/docute-demo-code)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
 [![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
 
@@ -20,7 +21,7 @@ First load this plugin via `<script>` tag:
 
 ```html
 <!-- Load this plugin after docute.js -->
-<script src="https://unpkg.com/docute-demo-code@^0.1"></script>
+<script src="https://unpkg.com/docute-demo-code@"></script>
 ```
 
 This plugin exposed as `window.docuteDemoCode`
