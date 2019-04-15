@@ -13,6 +13,7 @@
     "dist/*.js"
   ],
   "scripts": {
+    "commit": "git-cz",
     "prepublishOnly": "npm run build && npm run build:min",
     "build": "bili --format umd",
     "build:min": "bili --format umd-min"
@@ -20,6 +21,8 @@
   "dependencies": {},
   "devDependencies": {
     "bili": "^4.4.0",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
     "husky": "^1.0.0-rc.13",
     "lint-staged": "^7.2.0",
     "prettier": "^1.15.2",
@@ -46,5 +49,10 @@
     "document",
     "documentation",
     "plugin"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
