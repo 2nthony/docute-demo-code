@@ -80,14 +80,14 @@ See the count button right here 😋? It's live🔥!
 
 :::
 
-### Without wrapper:
+### Without template wrapper:
 
 You don't have to use the `<template>` to wrap your node
 
 :::demo
 
 ```html
-<h3 class="title">Hi there!</h3>
+<p class="title">Hi there!</p>
 <button @click="count++">count: {{ count }}</button>
 
 <script>
