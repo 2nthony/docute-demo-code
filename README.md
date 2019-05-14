@@ -64,7 +64,7 @@ Similar to vuepress custom container huh?
 
 ## Use With Bundlers
 
-```sh
+```console
 yarn add docute-demo-code --dev
 ```
 
