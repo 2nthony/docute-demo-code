@@ -95,6 +95,10 @@ new Docute({
 
 Use docute style to wrap living demo block
 
+## Relate
+
+- [docute-custom-container](https://github.com/evillt/docute-custom-container)
+
 ## Contributing
 
 1. Fork it!
