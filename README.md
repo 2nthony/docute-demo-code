@@ -7,13 +7,13 @@ Please consider starring the project to show your ❤️ and support.
 > Only support Vue SFC string!  
 > For others you might want to try [docute-run-code](https://github.com/egoist/docute-plugins/tree/master/packages/run-code)
 
-[![NPM version](https://badgen.net/npm/v/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
-[![NPM download](https://badgen.net/npm/dm/docute-demo-code)](https://npmjs.com/package/docute-demo-code)
+[![NPM version](https://badgen.net/npm/v/docute-demo-code?icon=npm)](https://npmjs.com/package/docute-demo-code)
+[![NPM download](https://badgen.net/npm/dm/docute-demo-code?icon=npm)](https://npmjs.com/package/docute-demo-code)
 [![CircleCI](https://badgen.net/circleci/github/evillt/docute-demo-code?icon=circleci)](https://circleci.com/gh/evillt/docute-demo-code/tree/master)
-[![](https://data.jsdelivr.com/v1/package/npm/docute-demo-code/badge?style=rounded)](https://www.jsdelivr.com/package/npm/docute-demo-code)
+[![](https://badgen.net/jsdelivr/hits/npm/docute-demo-code)](https://www.jsdelivr.com/package/npm/docute-demo-code)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License](https://badgen.net/npm/license/docute-demo-code)](./LICENSE)
-[![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
+[![$donate](https://badgen.net/badge/suport%20me/donate/f2a)](https://patreon.com/evillt)
 
 ### 🤗Checkout the [live demo](https://docute-demo-code.now.sh)
 
