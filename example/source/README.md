@@ -38,7 +38,7 @@
 </style>
 ```
 
-### With docute-demo-code plugin:
+### With `docute-demo-code` plugin:
 
 See the count button right here 😋? It's live🔥!
 
