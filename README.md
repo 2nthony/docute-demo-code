@@ -1,6 +1,6 @@
 # docute-demo-code
 
-🔥Live code block for better showcase for Docute
+🔥Live code block for Docute
 
 Please consider starring the project to show your ❤️ and support.
 

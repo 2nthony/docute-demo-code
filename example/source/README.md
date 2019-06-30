@@ -1,6 +1,6 @@
 # Guide
 
-🔥Live code block for better showcase for Docute
+🔥Live code block for Docute
 
 ### Origin code block:
 
