@@ -23,7 +23,7 @@ First load this plugin via `<script>` tag:
 
 ```html
 <!-- Load this plugin after docute.js -->
-<script src="https://unpkg.com/docute-demo-code@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/docute-demo-code"></script>
 ```
 
 This plugin exposed as `window.docuteDemoCode`
