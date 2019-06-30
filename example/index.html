@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/docute.css">
   <title>Docute demo code</title>
 </head>
 <body>
   <div id="docute"></div>
   <script src="https://cdn.jsdelivr.net/npm/docute"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docute-demo-code"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docute-demo-code"></script> -->
+  <script src="../dist/index.js"></script>
   <script>
     new Docute({
       target: '#docute',
@@ -30,8 +31,8 @@
           title: 'Guide',
           links: [
             {
-              title: 'Introduction',
-              link: 'introduction'
+              title: 'Say hi',
+              link: 'say-hi'
             }
           ]
         }
