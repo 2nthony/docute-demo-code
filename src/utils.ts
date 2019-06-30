@@ -8,7 +8,7 @@ declare var Vue: any
 
 interface RegisterOptions {
   template: string
-  script: string
+  options: string
 }
 
 export function stripDemoBlock(text: Text): Text {
@@ -30,22 +30,22 @@ export function parseComponent(text: Text): RegisterOptions {
     .replace(JS_RE, '')
     // Replace all style tag to docute built-in component `<v-style>`
     .replace(/<(\/?)style>/g, '<$1v-style>')
-  const script = matchedScript.replace(MODULE_JS_RE, '$2').replace(JS_RE, '')
+  const options = matchedScript.replace(MODULE_JS_RE, '$2')
 
   return {
     template,
-    script
+    options
   }
 }
 
 export function registerComponent(
-  { template, script }: RegisterOptions,
+  { template, options }: RegisterOptions,
   id: number
 ) {
   if (!Vue) return
 
   const resolveComponent = new Function(
-    `return {template: \`<section>${template}</section>\`,${script}}`
+    `return {template: \`<section>${template}</section>\`,${options}}`
   )
 
   Vue.component(`Demo${id}`, resolveComponent())
